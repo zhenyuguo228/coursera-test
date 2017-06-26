@@ -98,5 +98,12 @@ body {
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
-
+  #nav-list li{
+	text-align: center;
+	border: 1px solid #559955;
+	margin-bottom:-1px;
+  }
+  #collapsable-nav {
+	background-color: green;
+  }
 }
